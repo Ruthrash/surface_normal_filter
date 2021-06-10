@@ -15,7 +15,7 @@ img = np.array(images_dict['images'][0], dtype=np.float32)
 
 depth_img = img/(np.amax(img))
 depth_img = depth_img*255.0
-cv2.imwrite("depth_img.jpg", depth_img)
+cv2.imwrite("data/depth_img.jpg", depth_img)
 
 
 img = torch.from_numpy(img)
