@@ -4,14 +4,14 @@ A static filter using Haar like kernels to estimate surface normal maps from den
 # Example 
 For a depth image like the one below, 
 
-![alt text](https://github.com/Ruthrash/surface_normal_filter/blob/master/depth_img.jpg) 
+![alt text](https://github.com/Ruthrash/surface_normal_filter/blob/master/data/depth_img.jpg) 
 
 the output surface normal map is 
 
-![alt text](https://github.com/Ruthrash/surface_normal_filter/blob/master/surface_img.jpg)
+![alt text](https://github.com/Ruthrash/surface_normal_filter/blob/master/data/surface_img.jpg)
 
 Individual X,Y,Z components of the surface normals can be seen as,
 
-![alt text](https://github.com/Ruthrash/surface_normal_filter/blob/master/surface_img_component_x.jpg)
-![alt text](https://github.com/Ruthrash/surface_normal_filter/blob/master/surface_img_component_y.jpg)
-![alt text](https://github.com/Ruthrash/surface_normal_filter/blob/master/surface_img_component_z.jpg)
+![alt text](https://github.com/Ruthrash/surface_normal_filter/blob/master/data/surface_img_component_x.jpg)
+![alt text](https://github.com/Ruthrash/surface_normal_filter/blob/master/data/surface_img_component_y.jpg)
+![alt text](https://github.com/Ruthrash/surface_normal_filter/blob/master/data/surface_img_component_z.jpg)
